@@ -1,0 +1,43 @@
+name: kitap_kutuphanem
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  sqflite: ^2.4.2 
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  carousel_slider: ^5.1.1
+  path: ^1.8.0
+  mobile_scanner: ^7.0.1
+  http: ^1.4.0
+  barcode_scan2: ^4.5.1
+  shared_preferences: ^2.5.3
+
+  cupertino_icons: ^1.0.6  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: "launcher_icon" # Android için ikon adlandırması
+  ios: true # iOS için ikon oluşturmayı etkinleştir
+  image_path: "assets/images/app_icon.png" # İkon dosyanızın yolu
+
+flutter:
+  uses-material-design: true
+
+assets:
+    - assets/images/
+    
